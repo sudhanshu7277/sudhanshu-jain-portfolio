@@ -28,7 +28,7 @@ function App() {
       "Using GIS framework Google Maps API."
     ],
     technicalSkills: {
-      programmingTools: "HTML5, CSS3, JavaScript, AJAX, jQuery, Reactjs, AngularJS, Angular 2/4/5/6/7/8/9/10/11/12/13/14/15,17, React, React Native, Redux, AWS, Azure, NGRX, ES6, JSON, Core Java, Java Spring Boot, Twitter Bootstrap, Python, Django, Git.",
+      programmingTools: "HTML5, CSS3, JavaScript, AJAX, jQuery, Reactjs, AngularJS, Angular 2/4/5/6/7/8/9/10/11/12/13/14/15,17, Redux, AWS, Azure, NGRX, ES6, JSON, Core Java, Java Spring Boot, Twitter Bootstrap, Python, Django, Git.",
       webIDETools: "Notepad++, Sublime Text editor, Spring tool suite, Visual Studio Code, textEdit.",
       versionControl: "Git Bash (Github), bitbucket.",
       operatingSystems: "Windows 9x/XP/7/10, Macintosh OSx, Unix OS."
@@ -41,29 +41,29 @@ function App() {
     experience: [
       {
         title: "Full Stack Engineer",
-        company: "ITI Building Permit",
-        location: "Oakville, Ontario, Canada",
-        dates: "January 2024 to Current",
+        company: "TD Bank",
+        location: "Toronto, Ontario, Canada",
+        dates: "May 2024 to Current",
         responsibilities: [
-          "Using MEAN Stack (MongoDB, Express, Angular 17, Nodejs) and MEAN Stack (MongoDB, Express, Nodejs) building the Frontend and Backend.",
-          "Collecting business requirements for the Admin capability based and customer focused application with Angular 17 and css with Bootstrap.",
-          "Using Geographic Information Framework Data Standard (GIS) Google Maps API.",
+          "Using MERN Stack (MongoDB, Express, Reactjs, Nodejs) and  MEAN Stack (MongoDB, Angular, Express, Nodejs) building the Frontend and Backend.",
+          "Collecting business requirements for the Admin capability based and customer focused application with Angular 17, Reactjs, and css with Bootstrap.",
+          "Working in TBSM, Wealth management division.",
           "Using JEST for unit testing components and APIs.",
-          "State management using NGRX Store on the User interface side.",
-          "Following Web Accessibility standards WCAG for the specially abled.",
-          "Building Backend using Nodejs, express, making MongoDB connections with Databases and Collections.",
-          "Discuss specific requirements with the business owner and features they require.",
+          "Dealing with financial data accessed through complex data structures.",
+          "Client and server approach with Express application, Nodejs proxy wrapper.",
+          "Mask and protect APIs with Nodejs Proxy middleware.",
+          "Using JEST for unit testing components and APIs.",
+          "State management using NGRX Store and Context API on the User interface side.",
           "Using AZURE CI/CD pipelines for application deployments.",
           "Building Single page application using Angular 17 with features like Admin access only like (listing users, employees & their information private to the organization).",
-          "Having regular meetings In-person and virtual to discuss the progress and any new requirements if and when needed.",
-          "Writing cross browser compatible code and testing on different browsers including Chrome, Firefox and Edge."
+          "Having regular meetings In-person and virtual to discuss the progress and any new requirements if and when needed."
         ]
       },
       {
         title: "Software Engineer, UI",
         company: "GlobalLogic",
         location: "Remote in Ontario, Canada",
-        dates: "July 2022 to December 2023",
+        dates: "July 2022 to May 2024",
         responsibilities: [
           "Developing UI components using HTML/HTML5, CSS/CSS3/SCSS, React (JSX), Redux.",
           "Building APIs Using Nodejs, Express.",
