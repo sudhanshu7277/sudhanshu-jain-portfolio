@@ -24,8 +24,7 @@ function App() {
       "Solid understanding and experience with Agile Methodologies: Sprint planning, Scrums and Task Board.",
       "Self-motivated, able to work independently and in teams, can handle multiple projects while paying attention to details.",
       "Excellent interpersonal abilities, communication skills, time management and Team skills with an intention to work hard to attain project deadlines under stressful environments.",
-      "Worked closely with the project management and marketing team to completely define specifications to help ensure project acceptance.",
-      "Using GIS framework Google Maps API."
+      "Worked closely with the project management and marketing team to completely define specifications to help ensure project acceptance."
     ],
     technicalSkills: {
       programmingTools: "HTML5, CSS3, JavaScript, AJAX, jQuery, Reactjs, AngularJS, Angular 2/4/5/6/7/8/9/10/11/12/13/14/15,17, Redux, AWS, Azure, NGRX, ES6, JSON, Core Java, Java Spring Boot, Twitter Bootstrap, Python, Django, Git.",
