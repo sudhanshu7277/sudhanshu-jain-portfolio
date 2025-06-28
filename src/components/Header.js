@@ -1,43 +1,21 @@
 import React from 'react';
 
-//Header component displays the user's name and contact information.
-function Header({ name, phone, email, linkedin }) {
+export const Header = ({ scrollToRef }) => {
   return (
-    <header className="text-center mb-12 p-6 bg-gray-800 rounded-lg shadow-xl">
-      <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-400 mb-2">
-        {name}
+    <header className="relative z-10 w-full p-6 bg-white bg-opacity-80 shadow-lg rounded-b-2xl mb-8">
+    <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
+      <h1 className="text-4xl text-indigo-700 mb-4 md:mb-0"> {/* Removed font-extrabold and tracking-tight */}
+        Sudhanshu Jain
       </h1>
-      <p className="text-lg sm:text-xl text-gray-300 mb-2">
-        {phone} | {email}
-      </p>
-      <p className="text-md sm:text-lg text-gray-400 mb-4">Canadian Citizen</p>
-      <a
-        href={linkedin}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition duration-300 ease-in-out shadow-md"
-      >
-        LinkedIn Profile
-      </a>
-    </header>
+      <nav>
+        <ul className="flex flex-wrap justify-center space-x-6">
+          <li><button onClick={() => scrollToRef('about')} className="text-gray-700 hover:text-indigo-600 font-normal transition duration-300">About</button></li> {/* Changed font-semibold to font-normal */}
+          <li><button onClick={() => scrollToRef('skills')} className="text-gray-700 hover:text-indigo-600 font-normal transition duration-300">Skills</button></li> {/* Changed font-semibold to font-normal */}
+          <li><button onClick={() => scrollToRef('experience')} className="text-gray-700 hover:text-indigo-600 font-normal transition duration-300">Experience</button></li> {/* Changed font-semibold to font-normal */}
+          <li><button onClick={() => scrollToRef('contact')} className="text-gray-700 hover:text-indigo-600 font-normal transition duration-300">Contact</button></li> {/* Changed font-semibold to font-normal */}
+        </ul>
+      </nav>
+    </div>
+  </header>
   );
-}
-
-// function Header() {
-//   return (
-//     <header className="header">
-//       <div className="container">
-//         <h1>Sudhanshu Jain</h1> [cite: 1]
-//         <p>Phone: +14375663684 | Email: Sudhanshuj020@gmail.com</p> [cite: 1]
-//         <p>Canadian Citizen</p> [cite: 1]
-//         <p>
-//           <a href="https://www.linkedin.com/in/sudhanshu-jain-4b792b108/" target="_blank" rel="noopener noreferrer">
-//             LinkedIn Profile
-//           </a>
-//         </p>
-//       </div>
-//     </header>
-//   );
-// }
-
-export default Header;
+};
